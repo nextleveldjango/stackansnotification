@@ -16,7 +16,7 @@ def func(send_email):
             print "Successfully sent email"
         except:
             print "Error: unable to send email"
-    return "Done"
+        return "Done"
     print "Still waiting for answer."
     return "No"
 
